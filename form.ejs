@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet" href="stylesheets/profile.css">
+</head>
+<body>
+    <header>
+        <form action="/landing" method="POST">
+            <h1></h1>
+            <div class="Form">
+            <h2>Personal Details</h2>
+            <p>First Name: <input type="text" name="first_name" required> Last Name: <input type="text" name="last_name" required>
+                </p>
+            <p>
+               Course: 
+                <select name="Course" id="Course_Category" required>
+                    <option value="" >--Select an item category--</option>
+                    <option value="Btech">Btech</option>
+                    <option value="Mtech">Mtech</option>
+                    <option value="PhD">PhD</option> 
+                    
+                </select>
+                </p>
+             
+             <p>
+                Enrollment No: <input type="number" name="enrollment_no" id="Pincode" required>
+             </p>
+             <p>Branch: <input type="text" name="Branch" required></p>
+             <p>
+                Year of Passing: <input type="number" name="Year_of_Passing" id="Year of Passing" required>
+                <hr>
+             </p>
+             <h2>Contact Details</h2>
+             <p>
+                    Hostel Details: <textarea name="Hostel_Details" id="Address" cols="100" rows="10" required></textarea>
+             </p>
+             <p>
+                IITR Email: <input type="email" name="IITR_Email" id="Email" required>
+             </p>
+             <p>Contact no.(optional) <input type="number" name="Contact_no" id="Contact no."></p>
+             <p>Insta Handle(optional) <input type="text" name="Insta_Handle" id="insta"></p>
+             <hr>
+             <h2>Item Details</h2>
+             <p>Item name: <input type="text" name="Item_name" id = "item name"></p>
+             <p>Item Category:
+            <select name="Item_Category" id="Item_Type" required>
+                <option value="" >--Select an item category--</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Transport">Transport</option>
+                <option value="Bags">Bags</option>
+                <option value="Devices">Devices</option>
+                <option value="Others">Others</option>
+            </select>
+             </p>
+             <p>Item SubCategory:
+                <select name="SubCategory" id="Item_SubType" required>
+                    <option value="" >--Select an item SubCategory--</option>
+                    <option value="heater(Electrical)">heater(Electrical)</option>
+                    <option value="aircooler(Electrical)">aircooler(Electrical)</option>
+                    <option value="kettles(Electrical)">kettles(Electrical)</option>
+                    <option value="LAN Cables(Electrical)">LAN Cables(Electrical)</option>
+                    <option value="Cycles(Transport)">Cycles(Transport)</option>
+                    <option value="Skates(Transport)">Skates(Transport)</option>
+                    <option value="AirCase(Bags)">AirCase(Bags)</option>
+                    <option value="Suitcase(Bags)">Suitcase(Bags)</option>
+                    <option value="Mouse(devices)">Mouse(Device)</option>
+                    <option value="Keyboard(Devices)">Keyboard(Devices)</option>
+                    <option value="Pendrives(Devices)">Pendrives(Devices)</option>
+                    <option value="Guitar(Musical)">Guitar(Musical)</option>
+                    <option value="Casio(Musical)">Casio(Musical)</option>
+                    <option value="Matresses(Other)">Matresses(Other)</option>
+                </select>
+                 </p>
+             <p>Price: <input type="number" name="Price" id="price"></p>
+             <p>Picture: 
+               <label for="myfile">Select a file:</label>
+               <input type="file" id="myfile" name="picture">
+
+             </p>
+             <p>
+                Description: <textarea name="Description" id="Description" cols="100" rows="10" required></textarea>
+           <p>  <input type="submit" value="SUBMIT" required></p>
+         </div>
+        </form>
+      
+    </header>
+</body>
+</html>
