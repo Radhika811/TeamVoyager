@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <header>
+      
+        <form action="">
+            <h1></h1>
+            <div class="Form">
+            <h2>Personal Details</h2>
+            <p>First Name: <input type="text" name="name" required> Last Name: <input type="text" name="name" required>
+                </p>
+            <p>
+                Course: &nbsp Btech <input type="radio" name="Course" id="Btech" required> Mtech <input type="radio" name="Course" id="Mtech" required> PhD <input type="radio" name="Course" id="PhD" required>
+                </p>
+             
+             <p>
+                Enrollment No: <input type="number" name="Pincode" id="Pincode" required>
+             </p>
+             <p>Branch: <input type="text" name="Branch" required></p>
+             <p>
+                Year of Passing: <input type="number" name="Year of Passing" id="Year of Passing" required>
+                <hr>
+             </p>
+             <h2>Contact Details</h2>
+             <p>
+                    Hostel Details: <textarea name="Address" id="Address" cols="100" rows="10" required></textarea>
+             </p>
+             <p>
+                IITR Email: <input type="email" name="Email" id="Email" required>
+             </p>
+             <p>Contact no.(optional) <input type="number" name="Contact no." id="Contact no."></p>
+             <p>Insta Handle(optional) <input type="text" name="insta" id="insta"></p>
+             <hr>
+             <h2>Item Details</h2>
+             <p>Item name: <input type="text" name="Item name" id = "item name"></p>
+             <p>Item Category:
+            <select name="Item_Type" id="Item_Type" required>
+                <option value="" >--Select an item category--</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Transport">Transport</option>
+                <option value="Bags">Bags</option>
+                <option value="Devices">Devices</option>
+                <option value="Others">Others</option>
+            </select>
+             </p>
+             <p>Price: <input type="number" name="price" id="price"></p>
+             <p>Picture: 
+               <label for="myfile">Select a file:</label>
+               <input type="file" id="myfile" name="myfile">
+
+             </p>
+             <p>
+                Description: <textarea name="Description" id="Description" cols="100" rows="10" required></textarea>
+           <p>  <input type="submit" value="SUBMIT" required></p>
+         </div>
+        </form>
+      
+    </header>
+</body>
+</html>
